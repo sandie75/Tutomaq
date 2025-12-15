@@ -1,0 +1,12 @@
+.product-card_title {
+    font-weight: bold;
+    font-size: 0.725rem;
+    line-height: 1.5;
+    color: var(--text-dark);
+}
+.product-card_price {
+    font-weight: bold;
+    line-height: 1.375;
+    color: var(--price);
+    
+}
