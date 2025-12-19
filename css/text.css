@@ -4,9 +4,33 @@
     line-height: 1.5;
     color: var(--text-dark);
 }
+
 .product-card_price {
     font-weight: bold;
     line-height: 1.375;
     color: var(--price);
     
+}
+
+.section-title {
+    font-size: 1.75rem;
+    line-height: 1.42;
+    color: var(--text-title);
+    font-weight: bold;
+}
+
+@media (min-width: 700px){
+    .section-title{
+        font-size: 2.625rem;
+    }
+    
+    .product-card_title {
+        font-size: 1.375rem;
+        line-height: 1.23;
+    }
+
+    .product-card_price {
+        font-size: 1.75rem;
+        line-height: 1;
+    }
 }
